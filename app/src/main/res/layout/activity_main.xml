@@ -12,14 +12,19 @@
     android:orientation="vertical">
 
     <Button
+        android:id="@+id/btTempo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="iniciarServico"
         android:text="Print TIMESTAMP"/>
     <Button
+        android:id="@+id/btIniciarServico"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="pararServico"
+        android:text="Iniciar Serviço"/>
+    <Button
+        android:id="@+id/btPararServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Para Serviço"/>
 
     <TextView
